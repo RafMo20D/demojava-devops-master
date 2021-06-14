@@ -49,5 +49,5 @@ uses: azure/webapps-deploy@v2
 with:
 app-name: 'demojava-master'
 slot-name: 'production'
-publish-profile: ${{ secrets.AzureAppService_PublishProfile_0068f7f82cd4490486e97a68528462a7 }}
+publish-profile: ${{ secrets.AzureAppService_PublishProfile_f454c15e377545db8d17dbab9a85a178 }}
 package: '*.jar'
